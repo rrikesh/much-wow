@@ -9,7 +9,7 @@ Note: Your theme should be using [`post_class`](http://codex.wordpress.org/Funct
 
 Work in progress. Requires PHP > 5.3
 
-Demo: [rrike.sh](http://rrike.sh/) 
+Demo: [http://much-wow.com](http://much-wow.com) 
 
 Feedback and suggestions are welcome. 
 Tweet me: [@rrikesh](https://twitter.com/rrikesh)
