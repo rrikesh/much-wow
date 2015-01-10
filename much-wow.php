@@ -23,7 +23,7 @@ function enqueue_scripts(){
 	# Minify only if WP_DEBUG is set to false
 	$min = \defined( 'WP_DEBUG' ) && WP_DEBUG ? '' : '.min';
 
-	\wp_enqueue_script( 'much-wow', \plugins_url( '/wow' . $min . '.js' , __FILE__ ), array( 'jquery' ), $version , true );
+	\wp_enqueue_script( 'much-wow', \plugins_url( '/wow' . $min . '.js' , __FILE__ ), array( 'jquery' ), $version );
 
 	\wp_enqueue_style( 'much-wow', \plugins_url( '/animate' . $min . '.css', __FILE__ ), null, $version );
 }
